@@ -9,7 +9,7 @@ gulp.task('sass', ()=> {
     return gulp.src('sass/**/*.scss')//en que archivo ejecuta la acción
      .pipe(sourcesmaps.init())
       .pipe(sass({
-        outputStyle:'compressed'//comprimir el css
+       // outputStyle:'compressed'//comprimir el css
       }).on('error', sass.logError))
      
       .pipe(autoprefixer({

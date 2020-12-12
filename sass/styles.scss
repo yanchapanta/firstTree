@@ -3,21 +3,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+
 body{
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
 }
-.header{
-    width: 100%;
-    ul{
-        display: flex;
-    }
-}
 
 
-.items{
+
+.ejemplo{
 
     width: 100%;
 
@@ -34,15 +32,4 @@ body{
     }
 }
 
-.header{
-    background-color:red;
-    ul{
 
-        li{
-
-            a{
-                color: wheat;
-            }
-        }
-    }
-}
