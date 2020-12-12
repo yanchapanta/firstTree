@@ -15,7 +15,7 @@ gulp.task('sass', ()=> {
       .pipe(autoprefixer({
         cascade: false
         }))
-      .pipe(sourcesmaps.write('./css'))
+      .pipe(sourcesmaps.write('css'))
       .pipe(gulp.dest('css'))//fin en dode se ejecuta  el resultado del cambio
       .pipe(browserSync.stream());
   });
